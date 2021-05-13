@@ -32,7 +32,7 @@
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} - Full Atom Feed" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    {% assets filters="scss,cssmin", output="css/web-min.css", "css/main.scss" %}
+    {% assets filters="scss", output="css/web-min.css", "css/main.scss" %}
 
     <link rel="stylesheet" href="/{{ ASSET_URL }}">
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.rust-lang.org/static/images/favicon-32x32.png">

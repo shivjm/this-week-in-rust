@@ -47,3 +47,5 @@ scattered about.
 }
 
 MD_EXTENSIONS = ['headerid']
+
+SASS_STYLE = "expanded"
