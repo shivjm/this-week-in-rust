@@ -10,3 +10,12 @@
     text-align: left;
   }
 }
+
+// undo Bootstrap ‘responsive’ design
+@each $width in (768px, 992px, 1200px) {
+  @media screen and (min-width: #{$width}) {
+    .page-content > .container {
+      width: auto;
+    }
+  }
+}
